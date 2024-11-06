@@ -1,0 +1,253 @@
+body{
+  /*  background-color: rgb(255, 255, 250);*/
+   margin: 0;
+  /* Removes default margin and padding applied by other browsers */
+   background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), 
+   url('/assets/island-6482321_1280.webp') 
+   no-repeat 
+   center 
+   center 
+   fixed;
+   background-size: 100% 100%;
+   background-attachment: fixed;
+   background-position: center;
+   width: 100%;
+   height:100%;
+   opacity: 0.9;
+   
+
+   /*background-image: ;
+  
+   background-size: cover;
+   background-position: right;*/
+  
+   
+
+} 
+
+/* Header*/
+header{
+    display: flex;/* Tells header it is a flex container now */
+    justify-content: start; /*evenly spaces out the child elements inside the container*/
+    align-items: center;/* Vertically center the child elements inside the container */
+    background-color: #61892f;/* back ground color */   
+    color :#D8C3A5; /* font color */
+    padding: 10px;/* padding inside the header to create space around the content*/
+    width: 100%; /*make sure the header spans the entire width of the screen. */
+    margin: 0 auto;/* centers the header horizontally on the page.*/
+    box-shadow: 0px 4px 6px rgba(0,0,0,0.3);/* creates a sligh shadow below the header to give it depth */
+    flex-wrap: wrap;/* makes sure that the child elements wrap on a new line if there isn't enough space */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+}
+.listFont{
+    font-family: Lobster, sans-serif;
+    color: rgb(86, 48, 2);
+}
+.nav{
+    display:flex;
+    justify-content: space-around;    
+   /* background-color:#61892d ;*/
+   font-family: Lobster, sans-serif;
+   font-size: 17px;
+  
+}
+.navlink{
+    color: rgb(86, 48, 2);
+}
+.headerimg{
+border-radius: 50%; /* round the corners of the element  (if it is a square ) adds rounded corner around the image*/
+box-shadow: 3px 3px 10px rgba(0,0,0,0.3); /* add soft shadow to make it float*/
+max-width: 90%; /* ensures the image is responsive */
+width: 475px;
+height: 300px;/* maintains image's aspect ration while resizing*/
+object-fit: cover; /* crops the image without distorting */
+}
+
+.intro{
+    max-width: 100%; /* limits the width for better readability*/
+    font-size: 30px;   
+    text-align: center; /*aligns text to the left , right, center */
+    font-family: Lobster, sans-serif;
+}
+
+
+/* Styling for Main */
+
+main{
+    
+    display: flex;/* Tells main it is a flex container now */
+    flex-direction: column;/* stack child elements (sections) vertically in a column */
+    align-items: center;/* Align child elements horizonatally in the center*/
+    padding: 30px; /* adds padding AROUND the main content for better spacing */
+    max-width: 100%;
+    margin: auto;
+}
+
+/*Styling each section elements */ 
+section{
+   /* background-color: #f9f9f9; /*background color of each section */
+    border-radius: 8px;/* adds rounded corners to section */
+   /* box-shadow: 0px 4px 8px rgba(0,0,0,0.3);/* box shadow making it "float"*/
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    padding: 20px; /* adds space INSIDE each section "card" */
+    margin-bottom: 20px; /* adds space at the BOTTOM of each "card" */
+    width:auto;/* makes the section take up the full width of the MAIN container    */
+    max-width: auto; /* Limits the width to a MAX of 800px*/
+}
+.paragraphStyle{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: italic;
+    line-height: 25px;
+    text-align: justify;
+   
+}
+li{
+    margin-bottom:10px; /* Add space between each list item*/
+}
+/*img{
+    border-radius: 50px;
+    box-shadow: 5px 5px darkgray;
+}*/
+/*.centerHeader{
+    text-align: center;
+}*/
+ .h1Styling{
+    font-size : 50px;
+    font-style: italic;
+}
+.h3Styling{
+    font-family: Lobster, sans-serif;
+    align-content: center;
+    font-size: 25px;
+    color: rgb(86, 48, 2);
+}  
+.labelStyling{
+    font-family: Lobster, sans-serif;
+    align-items: center;
+    align-content: center;
+     
+    font-size: 20px;
+    color: rgb(86, 48, 2);
+}  
+/*h2{
+    border : solid brown 2px ;
+    width :fit-content;
+}*/
+.skillsSection{
+    background-color: white;
+}
+.skills{
+   /* border: dashed hotpink 3px;*/
+    width: fit-content;
+}
+
+footer{
+   /* background-color: #f9f9f9;*/
+    height : 20px;
+    font-size : 20px;
+    padding: 10px ;
+}
+a:hover{
+    color: rgb(222, 3, 22) ;
+}
+.formStyle{   
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;  
+    height:80%;    
+    line-height: 50px;
+    border-radius: 5px; 
+    padding: 20px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+ textarea {
+    
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: none;
+   
+  }
+  text{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+   
+  }
+
+  button{
+    cursor:pointer;
+  }
+/*button{
+    background-color: #8d260f;
+    margin-left: 150px;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+button:hover {
+    background-color: #045123;
+  }*/
+
+.centerFooter{
+    text-align: center;
+    color: black;
+}
+.footerStyling{   
+   /* text-decoration : none;*/
+   color: rgb(86, 48, 2);
+}
+.rotate {
+    border-radius: 80%;
+    animation: rotation 8s infinite linear;
+  }
+  
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+    
+    
+  }
+  .animation {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    animation-name: example;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+   
+  }
+  @keyframes example {
+    0%   { left:-130px; top:0px;}
+    50%  {left:200px; top:0px;}
+    100% { left:-130px; top:0px;}
+  }
+  .artformsContainer{
+   display: flex;
+   flex-flow: row wrap;
+   justify-content: center;
+   margin: 20px;
+   padding: 10px;
+   
+    
+  }
+  .divGridStyling{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+  }
